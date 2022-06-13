@@ -58,9 +58,10 @@ input[type=password] {
     height: 100vh;
     float: left;
     animation-name:ajay;
-    animation-duration: 1s;
+    animation-duration: 1.5s;
     animation-direction: alternate;
 }
 @keyframes ajay{
-
+from{width: 100%;}
+to{width: 30%;}
 }
