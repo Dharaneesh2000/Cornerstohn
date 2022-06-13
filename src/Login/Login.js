@@ -7,8 +7,13 @@ function Login() {
     }
     console.log(isAdmin)
     return (
-        <div>
-            <h1>hello world</h1>
+        <div className="row">
+            <div className="col-3">
+            <h1>hello</h1>
+            </div>
+            <div className="col-9">
+            <h1>hello</h1>
+            </div>
         </div>
     );
 }
