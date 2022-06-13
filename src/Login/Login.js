@@ -7,25 +7,9 @@ function Login() {
     }
     console.log(isAdmin)
     return (
-        <form>
-            <label>
-                Admin:
-            </label>&nbsp;&nbsp;
-            <button onClick={display}>LOGIN</button><br></br>
-            <label>
-                Doctor:
-            </label>&nbsp;&nbsp;
-            <button onClick={display}>LOGIN</button><br></br>
-            <label>
-                Patient:
-            </label>&nbsp;&nbsp;
-            <button onClick={display}>LOGIN</button><br></br>
-            <label>
-                Hospital:
-            </label>&nbsp;&nbsp;
-            <button onClick={display}>LOGIN</button>
-        </form>
-
+        <div>
+            <h1>hello world</h1>
+        </div>
     );
 }
 
