@@ -29,7 +29,7 @@ body {
     transition: var(--tran-05);
 }
 .nav-link{
-    padding: -1rem 1rem;
+    padding: 0px;
 }
 ::selection {
     background-color: var(--primary-color);
