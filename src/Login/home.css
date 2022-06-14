@@ -11,12 +11,40 @@
     width: 200px;
 }
 #dropdownMenuButton1{
+    padding-top: 20px;
     background-color: transparent;
     color: #FFAD0D;
     border:none;
 }
+input[type=date] {
+  padding-top: 30px;
+  border: none;
+  border-bottom: 1px solid #FFAD0D;
+  border-top: 0px;
+  border-radius: 0px;
+  outline: 0;
+  margin-bottom: 20px;
+  padding-left: 0px;
+  color: black;
+  width: 300px;
+  font-size: 16px;
+}
+input[type=email] {
+  padding-top: 30px;
+  border: none;
+  border-bottom: 1px solid #FFAD0D;
+  border-top: 0px;
+  border-radius: 0px;
+  outline: 0;
+  margin-bottom: 20px;
+  padding-left: 0px;
+  color: black;
+  width: 300px;
+  font-size: 16px;
+}
 
 input[type=text] {
+    padding-top: 30px;
     border: none;
     border-bottom: 1px solid #FFAD0D;
     border-top: 0px;
@@ -26,6 +54,7 @@ input[type=text] {
     padding-left: 0px;
     color: black;
     width: 300px;
+    font-size: 16px;
 }
 
 input[type=password] {
@@ -38,6 +67,7 @@ input[type=password] {
     margin-bottom: 20px;
     color: black;
     width: 300px;
+    font-size: 16px;
 }
 #sButton{
     width: 100px;
@@ -54,14 +84,48 @@ input[type=password] {
 #color{
     position: relative;
     background-color: #FFAD0D;
-    width: 30%;
+    width: 20%;
     height: 100vh;
     float: left;
     animation-name:ajay;
     animation-duration: 1.5s;
     animation-direction: alternate;
 }
-@keyframes ajay{
-from{width: 100%;}
-to{width: 30%;}
-}
+@media screen and (max-width: 935px) {
+    #color{
+      width: 0%;
+    }
+    @keyframes ajay{
+        from{width: 100%;}
+        to{width: 0%;}
+        }
+  }
+  @media screen and (min-width: 935px) {
+    #color{
+      width: 20%;
+    }
+    @keyframes ajay{
+        from{width: 100%;}
+        to{width: 20%;}
+        }
+  }
+  #colorReg{
+      position: relative;
+      background-color: #FFAD0D;
+      width: 20%;
+      height: 145vh;
+      float: left;
+      animation-name:patientReg;
+      animation-duration: 1.5s;
+      animation-direction: alternate;
+  }
+  @media screen and (max-width: 935px) {
+      #colorReg{
+        display: none;
+      }
+    }
+    @media screen and (min-width: 935px) {
+      #colorReg{
+        width: 20%;
+      }
+    }

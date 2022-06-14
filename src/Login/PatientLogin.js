@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../Login/home.css";
 import img from "../Login/cornerstohn.png"
 
-function Login() {
+function PatientLogin() {
 
     return (
                 <div>
@@ -15,20 +15,19 @@ function Login() {
                             Select Role
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                            <li><a class="dropdown-item" href="#">Admin</a></li>
-                            <li><a class="dropdown-item" href="#">Hospital</a></li>
-                            <li><a class="dropdown-item" href="#">Doctor</a></li>
-                            <li><a class="dropdown-item" href="/patientLogin">Patient</a></li>
+                            <li><a class="dropdown-item" href="/">Admin</a></li>
+                            <li><a class="dropdown-item" href="/">Hospital</a></li>
+                            <li><a class="dropdown-item" href="/">Doctor</a></li>
+                            <li><a class="dropdown-item" href="/patient">Patient</a></li>
                         </ul>
                     </div>
                     {/* --------------------------- */}
                     <form>
                         <input type="text" placeholder="Email" /><br />
                         <input type="password" placeholder="Password" /><br />
-                        <div style={{paddingLeft:"-30px"}}>
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1" />
-                        <label class="form-check-label" for="exampleCheck1" style={{fontSize:"12px"}}>Remember me</label>
-                        </div>
+                        <span style={{fontSize:"10px"}}>New user? <a href="/patientReg">SIGN UP</a></span>
+                        <span> &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;</span>
+                        <span style={{fontSize:"10px"}}>Forgot Password?</span>
                         <br /><br />
                         <button type="submit" id="sButton">SIGN IN</button>
                     </form>
@@ -37,4 +36,4 @@ function Login() {
     );
 }
 
-export default Login;
+export default PatientLogin;
