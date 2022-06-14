@@ -31,6 +31,14 @@ body {
 .nav-link{
     padding: 0px;
 }
+img.icon.icon-width {
+    width: 20px;
+    height: 30px;
+    color: #707070;
+}
+img.icon.icon-width:hover{
+    fill: #fff;
+}
 ::selection {
     background-color: var(--primary-color);
     color: #fff;

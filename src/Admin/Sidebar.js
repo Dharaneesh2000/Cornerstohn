@@ -1,5 +1,7 @@
 import React from 'react';
-import "./Sidebar.css"
+import "./Sidebar.css";
+import Practices from '../Admin/Dashoard Icons/Hospital.svg';
+import Doctor from './Dashoard Icons/Stethoscope.svg'
 function AdminSidebar() {
     const toggle = () => {
         const body = document.querySelector('body'),
@@ -27,7 +29,7 @@ function AdminSidebar() {
                 <div className="menu-bar">
                     <div className="menu">
 
-                        
+
 
                         <ul className="menu-links" style={{ padding: "0px" }}>
                             <li className="nav-link">
@@ -38,15 +40,15 @@ function AdminSidebar() {
                             </li>
 
                             <li className="nav-link">
+
                                 <a href="#">
-                                    <i className='bx bx-bar-chart-alt-2 icon' ></i>
                                     <span className="text nav-text">Practices</span>
                                 </a>
                             </li>
 
                             <li className="nav-link">
                                 <a href="#">
-                                    <i className='bx bx-bell icon'></i>
+                                    <img src={Doctor} />
                                     <span className="text nav-text">Doctor</span>
                                 </a>
                             </li>
@@ -60,7 +62,7 @@ function AdminSidebar() {
 
                             <li className="nav-link">
                                 <a href="#">
-                                    <i className='bx bx-pie-chart-alt icon' ></i>
+                                    <i className='bx bx-pie-chart-alt icon bi bi-search' ></i>
                                     <span className="text nav-text">User Search</span>
                                 </a>
                             </li>
@@ -74,20 +76,20 @@ function AdminSidebar() {
 
                             <li className="nav-link">
                                 <a href="#">
-                                    <i className='bx bx-pie-chart-alt icon' ></i>
+                                    <i className='bi bi-cloud-arrow-up-fill icon' ></i>
                                     <span className="text nav-text">Uploads</span>
                                 </a>
                             </li>
 
                             <li className="nav-link">
                                 <a href="#">
-                                    <i className='bx bx-pie-chart-alt icon' ></i>
+                                    <i className='icon bi bi-person-fill' ></i>
                                     <span className="text nav-text">Employees</span>
                                 </a>
                             </li>
                             <li className="nav-link">
                                 <a href="#">
-                                    <i className='bx bx-heart icon' ></i>
+                                    <i className='bi bi-key-fill icon' ></i>
                                     <span className="text nav-text">Change Password</span>
                                 </a>
                             </li>
