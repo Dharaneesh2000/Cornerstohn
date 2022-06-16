@@ -103,20 +103,20 @@ body.dark {
     font-size: 20px;
 }
 
-.sidebar .text,
+.sidebar .text-sidebar,
 .sidebar .icon {
     color: var(--text-color);
     transition: var(--tran-03);
 }
 
-.sidebar .text {
+.sidebar .text-sidebar {
     font-size: 17px;
     font-weight: 500;
     white-space: nowrap;
     opacity: 1;
 }
 
-.sidebar.close .text {
+.sidebar.close .text-sidebar {
     opacity: 0;
 }
 
@@ -227,12 +227,12 @@ body.dark .sidebar header .toggle {
 }
 
 .sidebar li a:hover .icon,
-.sidebar li a:hover .text {
+.sidebar li a:hover .text-sidebar {
     color: var(--sidebar-color);
 }
 
 body.dark .sidebar li a:hover .icon,
-body.dark .sidebar li a:hover .text {
+body.dark .sidebar li a:hover .text-sidebar {
     color: var(--text-color);
 }
 
@@ -325,7 +325,7 @@ body.dark .switch::before {
     transition: var(--tran-05);
 }
 
-.home .text {
+.home .text-sidebar {
     font-size: 30px;
     font-weight: 500;
     color: var(--text-color);
@@ -338,7 +338,7 @@ body.dark .switch::before {
     width: calc(100% - 78px);
 }
 
-body.dark .home .text {
+body.dark .home .text-sidebar {
     color: var(--text-color);
 }
 
