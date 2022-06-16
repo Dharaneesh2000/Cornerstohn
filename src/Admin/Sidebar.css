@@ -28,9 +28,15 @@ body {
     min-height: 100vh;
     transition: var(--tran-05);
 }
-.nav-link{
-    padding: -1rem 1rem;
+
+.nav-link {
+    padding: 0px;
 }
+
+.menu-links {
+    padding: 0rem !important;
+}
+
 ::selection {
     background-color: var(--primary-color);
     color: #fff;
