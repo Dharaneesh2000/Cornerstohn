@@ -18,13 +18,13 @@ function PatientLogin() {
                             <li><a class="dropdown-item" href="/">Admin</a></li>
                             <li><a class="dropdown-item" href="/">Hospital</a></li>
                             <li><a class="dropdown-item" href="/">Doctor</a></li>
-                            <li><a class="dropdown-item" href="/patient">Patient</a></li>
+                            <li><a class="dropdown-item" href="/patientLogin">Patient</a></li>
                         </ul>
                     </div>
                     {/* --------------------------- */}
                     <form>
-                        <input type="text" placeholder="Email" /><br />
-                        <input type="password" placeholder="Password" /><br />
+                        <input type="text" id="text" placeholder="Email" /><br />
+                        <input type="password" id="password" placeholder="Password" /><br />
                         <span style={{fontSize:"10px"}}>New user? <a href="/patientReg">SIGN UP</a></span>
                         <span> &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;</span>
                         <span style={{fontSize:"10px"}}>Forgot Password?</span>

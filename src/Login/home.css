@@ -5,7 +5,7 @@
 
 }
 .loginMain{
-    padding-top: 100px;
+    padding-top: 130px;
 }
 .pic{
     width: 200px;
@@ -16,7 +16,7 @@
     color: #FFAD0D;
     border:none;
 }
-input[type=date] {
+#date{
   padding-top: 30px;
   border: none;
   border-bottom: 1px solid #FFAD0D;
@@ -29,7 +29,7 @@ input[type=date] {
   width: 300px;
   font-size: 16px;
 }
-input[type=email] {
+#email{
   padding-top: 30px;
   border: none;
   border-bottom: 1px solid #FFAD0D;
@@ -43,7 +43,7 @@ input[type=email] {
   font-size: 16px;
 }
 
-input[type=text] {
+#text{
     padding-top: 30px;
     border: none;
     border-bottom: 1px solid #FFAD0D;
@@ -57,7 +57,7 @@ input[type=text] {
     font-size: 16px;
 }
 
-input[type=password] {
+#password{
     border: none;
     border-bottom: 1px solid #FFAD0D;
     border-top: 0px;
