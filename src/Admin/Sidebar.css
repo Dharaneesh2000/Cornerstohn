@@ -12,7 +12,7 @@
     /* ===== Colors ===== */
     --body-color: #E4E9F7;
     --sidebar-color: #FFF;
-    --primary-color: #695CFE;
+    --primary-color: #FCBF18;
     --primary-color-light: #F6F5FF;
     --toggle-color: #DDD;
     --text-color: #707070;
@@ -28,15 +28,18 @@ body {
     min-height: 100vh;
     transition: var(--tran-05);
 }
-.nav-link{
+
+.nav-link {
     padding: 0px;
 }
+
 img.icon.icon-width {
     width: 20px;
     height: 30px;
     color: #707070;
 }
-img.icon.icon-width:hover{
+
+img.icon.icon-width:hover {
     fill: #fff;
 }
 
@@ -158,7 +161,7 @@ header .image-text .profession {
 
 .sidebar header .toggle {
     position: absolute;
-    top: 50%;
+    top: 40%;
     right: -25px;
     transform: translateY(-50%) rotate(180deg);
     height: 25px;
@@ -183,7 +186,7 @@ body.dark .sidebar header .toggle {
 }
 
 .sidebar .menu {
-    margin-top: 40px;
+    margin-top: 5px;
 }
 
 .sidebar li.search-box {
@@ -338,3 +341,29 @@ body.dark .switch::before {
 body.dark .home .text {
     color: var(--text-color);
 }
+
+/* Dashbaord Icon svg*/
+a:hover path {
+    fill: white
+}
+
+svg.icon.icon-size {
+    height: 36px;
+}
+a:hover svg{
+    fill: white
+}
+i:hover .sidebaroc{
+color: #ccc;
+background: #DDD;
+}
+.fa-circle-arrow-righ:hover{
+fill: #FCBF18;
+background-color:wheat ;
+}
+.fa-circle-arrow-right:hover:before{
+color: #FCBF18;
+background-color: #fff;
+border-radius: 50%;
+}
+/* end  dashbord icon svg */
