@@ -2,12 +2,16 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css';
 import Login from './Login/Login';
 import AdminSidebar from './Admin/Sidebar'
+import PatientLogin from "./Login/PatientLogin";
+import PatientReg from "./Patient/PatientReg";
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/Sidebar" element={<AdminSidebar />} />
+        <Route path="/patientLogin" element={<PatientLogin />} />
+        <Route path="/patientReg" element={<PatientReg />} />
       </Routes>
     </Router>
   );

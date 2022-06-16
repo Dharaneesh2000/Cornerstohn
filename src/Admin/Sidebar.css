@@ -28,9 +28,16 @@ body {
     min-height: 100vh;
     transition: var(--tran-05);
 }
-
-.nav-link {
+.nav-link{
     padding: 0px;
+}
+img.icon.icon-width {
+    width: 20px;
+    height: 30px;
+    color: #707070;
+}
+img.icon.icon-width:hover{
+    fill: #fff;
 }
 
 .menu-links {
