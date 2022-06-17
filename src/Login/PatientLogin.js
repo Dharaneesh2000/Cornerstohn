@@ -23,13 +23,13 @@ function PatientLogin() {
                     </div>
                     {/* --------------------------- */}
                     <form>
-                        <input type="text" id="text" placeholder="Email" /><br />
-                        <input type="password" id="password" placeholder="Password" /><br />
+                        <input type="text" className="text" placeholder="Email" /><br />
+                        <input type="password" className="password" placeholder="Password" /><br />
                         <span style={{fontSize:"10px"}}>New user? <a href="/patientReg">SIGN UP</a></span>
                         <span> &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;</span>
                         <span style={{fontSize:"10px"}}>Forgot Password?</span>
                         <br /><br />
-                        <button type="submit" id="sButton">SIGN IN</button>
+                        <button type="submit" className="sButton">SIGN IN</button>
                     </form>
                 </center>
                 </div>

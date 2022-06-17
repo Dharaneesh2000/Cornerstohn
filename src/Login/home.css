@@ -16,7 +16,7 @@
     color: #FFAD0D;
     border:none;
 }
-#date{
+.date{
   padding-top: 30px;
   border: none;
   border-bottom: 1px solid #FFAD0D;
@@ -29,7 +29,7 @@
   width: 300px;
   font-size: 16px;
 }
-#email{
+.email{
   padding-top: 30px;
   border: none;
   border-bottom: 1px solid #FFAD0D;
@@ -43,7 +43,7 @@
   font-size: 16px;
 }
 
-#text{
+.text{
     padding-top: 30px;
     border: none;
     border-bottom: 1px solid #FFAD0D;
@@ -57,7 +57,7 @@
     font-size: 16px;
 }
 
-#password{
+.password{
     border: none;
     border-bottom: 1px solid #FFAD0D;
     border-top: 0px;
@@ -69,7 +69,7 @@
     width: 300px;
     font-size: 16px;
 }
-#sButton{
+.sButton{
     width: 100px;
     height: 30px;
     border-radius: 10px;
@@ -77,7 +77,7 @@
     background-color: #FFAD0D;
     color: white;
 }
-#sButton:hover{
+.sButton:hover{
     background-color: white;
     color: #FFAD0D;
 }
@@ -99,7 +99,7 @@
         from{width: 100%;}
         to{width: 0%;}
         }
-  }
+ }
   @media screen and (min-width: 935px) {
     #color{
       width: 20%;
@@ -129,3 +129,17 @@
         width: 20%;
       }
     }
+.popText{
+  color: #4F4F4F;
+  font-size: 15px;
+  padding-left: 20px;
+}
+.popInputText{
+  background-color: #FEE5A0;
+  border: none;
+  border-radius: 5px;
+  width: 190px;
+  font-size: 14px;
+  height: 28px;
+  padding-left: 5px;
+}
