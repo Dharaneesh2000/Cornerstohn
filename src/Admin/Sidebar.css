@@ -72,6 +72,8 @@ body.dark {
     background: var(--sidebar-color);
     transition: var(--tran-05);
     z-index: 100;
+    border-right: 1px solid rgba(0, 0, 0, .125);
+    box-shadow: rgb(0 0 0 / 25%) 0px 4px 10px 0px;
 }
 
 .sidebar.close {
@@ -242,6 +244,7 @@ body.dark .sidebar li a:hover .text-sidebar {
     flex-direction: column;
     justify-content: space-between;
     overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .menu-bar::-webkit-scrollbar {
@@ -350,20 +353,48 @@ a:hover path {
 svg.icon.icon-size {
     height: 36px;
 }
-a:hover svg{
+
+a:hover svg {
     fill: white
 }
-i:hover .sidebaroc{
-color: #ccc;
-background: #DDD;
+
+i:hover .sidebaroc {
+    color: #ccc;
+    background: #DDD;
 }
-.fa-circle-arrow-righ:hover{
-fill: #FCBF18;
-background-color:wheat ;
+
+.fa-circle-arrow-righ:hover {
+    fill: #FCBF18;
+    background-color: wheat;
 }
-.fa-circle-arrow-right:hover:before{
-color: #FCBF18;
-background-color: #fff;
-border-radius: 50%;
+
+.fa-circle-arrow-right:hover:before {
+    color: #FCBF18;
+    background-color: #fff;
+    border-radius: 50%;
 }
+
 /* end  dashbord icon svg */
+
+/* --------------------------------------------------------------------------------------------------- */
+
+/* mobile version navbar */
+.header-mobile {
+    background-color: var(--black);
+    box-shadow: 1px 1px 5px 0px var(--gray);
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.logo-mobile {
+    text-decoration: none;
+    display: inline-block;
+    color: var(--white);
+    font-size: 60px;
+    margin-left: 10px;
+}
+
+.menu-mobile {
+    list-style: none;
+}

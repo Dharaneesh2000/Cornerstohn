@@ -11,7 +11,7 @@ function AdminSidebar() {
     }
     return (
         <React.Fragment>
-            <nav className="sidebar close">
+            <nav className="sidebar close d-none d-sm-none d-md-block d-lg-block">
                 <header>
                     <div className="image-text">
                         <span className="image">
@@ -129,23 +129,31 @@ function AdminSidebar() {
 
             </nav>
 
-            <section className="home">
+            {/* <section className="home d-none d-sm-none d-md-block d-lg-block">
                 <div className='card' style={{ boxShadow: "0px 4px 10px 0px #00000040" }}>
-                    <div className="text-sidebar" style={{ textAlign: "right", fontSize:"18px" }}>Admin</div>
+                    <div className="text-sidebar" style={{ textAlign: "right", fontSize: "18px" }}>Admin</div>
                 </div>
-            </section>
+            </section> */}
+
+            {/* Mobile View */}
+            <header className="header-mobile d-block d-sm-block d-md-none d-lg-none">
+                {/* Logo */}
+                <a href="#" className="logo-mobile">LR</a>
+                {/* Hamburger icon */}
+                <input className="side-menu" type="checkbox" id="side-menu" />
+                <label className="hamb" for="side-menu"><span className="hamb-line"></span></label>
+                {/* Menu */}
+                <nav className="nav">
+                    <ul className="menu-mobile">
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Blog</a> </li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                </nav>
+            </header>
         </React.Fragment>
     )
 }
 export default AdminSidebar;
 
 
-{/* <i class="fa-solid fa-square-h"></i>
-<i class="fa-solid fa-stethoscope"></i>
-<i class="fa-solid fa-bed-pulse"></i>
-<i class="fa-solid fa-magnifying-glass"></i>
-<i class="fa-solid fa-file-lines"></i>
-<i class="fa-solid fa-cloud-arrow-up"></i>
-<i class="fa-solid fa-user-vneck"></i>
-<i class="fa-solid fa-right-from-bracket"></i>
-<i class="fa-solid fa-key"></i> */}
