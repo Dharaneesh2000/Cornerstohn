@@ -73,13 +73,14 @@
     width: 100px;
     height: 30px;
     border-radius: 10px;
-    border-color:#FFAD0D ;
     background-color: #FFAD0D;
     color: white;
+    border: #FFAD0D;
 }
 .sButton:hover{
     background-color: white;
     color: #FFAD0D;
+    border-style:solid;
 }
 #color{
     position: relative;

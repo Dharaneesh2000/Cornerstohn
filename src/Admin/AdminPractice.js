@@ -6,10 +6,12 @@ function Practices() {
     return (
         <div>
             <AdminSidebar />
-        <div className='' style={{paddingLeft:"7%"}}>
-            
+        
+        <div className='' style={{paddingLeft:"8%"}}>
+            <br />
             {/*Add Practice button */}
-            <button className='sButton' type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <input className='popInputText' placeholder='Search' type="text"></input>
+            <button className="sButton" style={{width:"150px",float:"right"}} data-bs-toggle="modal" data-bs-target="#exampleModal">
             Add Practice
             </button>
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -79,8 +81,8 @@ function Practices() {
                             </div>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
+                            <button type="button"  class="sButton" style={{width:"anto"}} data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="sButton" style={{width:"anto"}}>Save changes</button>
                         </div>
                     </div>
                 </div>

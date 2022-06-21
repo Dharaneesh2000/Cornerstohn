@@ -39,7 +39,7 @@ function AdminSidebar() {
                             </li>
 
                             <li className="nav-link">
-                                <a href="#">
+                                <a href="/adminPractices">
                                     <i class="icon fa-solid fa-square-h"></i>
                                     <span className="text-sidebar nav-text">Practices</span>
                                 </a>
@@ -67,35 +67,35 @@ function AdminSidebar() {
                             </li>
 
                             <li className="nav-link">
-                                <a href="#">
+                                <a href="/adminForms">
                                     <i class="icon fa-solid fa-file-lines"></i>
                                     <span className="text-sidebar nav-text">Forms</span>
                                 </a>
                             </li>
 
                             <li className="nav-link">
-                                <a href="#">
+                                <a href="/adminUploads">
                                     <i class="icon fa-solid fa-cloud-arrow-up"></i>
                                     <span className="text-sidebar nav-text">Uploads</span>
                                 </a>
                             </li>
 
                             <li className="nav-link">
-                                <a href="#">
+                                <a href="/adminEmpoloyees">
                                     <i class="icon fa-solid fa-user-tie"></i>
                                     <span className="text-sidebar nav-text">Employees</span>
                                 </a>
                             </li>
 
                             <li className="nav-link">
-                                <a href="#">
+                                <a href="/adminChangePassword">
                                     <i class="icon fa-solid fa-key"></i>
                                     <span className="text-sidebar nav-text">Change Password</span>
                                 </a>
                             </li>
 
                             <li className="nav-link">
-                                <a href="#">
+                                <a href="/">
                                     <i class="icon fa-solid fa-right-from-bracket"></i>
                                     <span className="text-sidebar nav-text">Logout</span>
                                 </a>
