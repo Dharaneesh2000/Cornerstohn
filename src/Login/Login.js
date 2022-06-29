@@ -22,9 +22,9 @@ function Login() {
                     </ul>
                 </div>
                 {/* --------------------------- */}
-                <form>
-                    <input type="text" className="text" placeholder="Email" /><br />
-                    <input type="password" className="password" placeholder="Password" /><br />
+                <form action="/adminPractices">
+                    <input type="text" className="text" placeholder="Email" required /><br />
+                    <input type="password" className="password" placeholder="Password" required/><br />
                     <div style={{ paddingLeft: "-30px" }}>
                         <input type="checkbox" class="form-check-input" id="exampleCheck1" />
                         <label class="form-check-label" for="exampleCheck1" style={{ fontSize: "12px" }}>Remember me</label>
