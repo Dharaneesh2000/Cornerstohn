@@ -6,7 +6,8 @@ import Login from './Login/Login';
 //------------------------[Home login end]---------------------------------------------------------------
 
 // -------------------------[ Admin pages start ]------------------------------------------------------------
-import AdminSidebar from './Admin/Sidebar'
+import AdminSidebar from './Admin/Sidebar';
+import AdminHeader from "./Admin/AdminHeader";
 import PatientLogin from "./Login/PatientLogin";
 import Practices from "./Admin/AdminPractice";
 import ChangePassword from "./Admin/AdminChangePassword";
@@ -30,6 +31,7 @@ function App() {
         
         {/*  -------------------------[ Admin pages start ]------------------------------- */}
         <Route path="/Sidebar" element={<AdminSidebar />} />
+        <Route path="/adminHeader" element={<AdminHeader/>} />
         <Route path="/adminPractices" element={<Practices />} />
         <Route path="/adminChangePassword" element={<ChangePassword />} />
         <Route path="/adminForms" element={<Forms />} />

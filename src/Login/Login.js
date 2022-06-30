@@ -11,10 +11,10 @@ function Login() {
                 <img className="pic" src={img}></img>
                 {/* ------------------------------------- */}
                 <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    <button class="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="true">
                         Select Role
                     </button>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <ul className="dropdown-menu" style={{width:"50px"}} aria-labelledby="dropdownMenuButton1">
                         <li><a class="dropdown-item" href="#">Admin</a></li>
                         <li><a class="dropdown-item" href="#">Hospital</a></li>
                         <li><a class="dropdown-item" href="#">Doctor</a></li>
